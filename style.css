@@ -1,12 +1,215 @@
 h1{
-  color: rgb(203, 157, 97);
+  font-size: 96px;
+  color: rgb(230, 183, 122);
   font-family: "Kaisei Opti", serif;
   font-weight: 700;
   font-style: normal;
+  margin-top: 224px;
+  margin-bottom: 1px;
+}
+
+
+.title-box{
+  position:relative;
+  display: inline-block;
+}
+.title-bg{
+  position: absolute;
+  width: 125px;
+  opacity: 0.25;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.title-bg.bg1{
+  transform: translate(-50%,-50%) translate(-420px,32px);
+  width: 80px;
+}
+.title-bg.bg2{
+  transform: translate(-50%,-50%) translate(-280px,280px);
+  width: 100px;
+}
+.title-bg.bg3{
+  transform: translate(-50%,-50%) translate(-140px,32px);
+}
+.title-bg.bg4{
+  transform: translate(-50%,-50%) translate(0px,280px);
+  width: 100px;
+}
+.title-bg.bg5{
+  transform: translate(-50%,-50%) translate(140px,32px);
+  width: 80px;
+}
+.title-bg.bg6{
+  transform: translate(-50%,-50%) translate(280px,280px);
+}
+.title-bg.bg7{
+  transform: translate(-50%,-50%) translate(420px,32px);
+  width: 100px;
+}
+
+h2{
+  font-size: 40px;
+  color: rgb(230, 183, 122);
+  font-family: "Kaisei Opti", serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 640px;
+  margin-top: -8px;
+}
+
+h4{
+   font-size: 48px;
+  color: rgb(230, 183, 122);
+  font-family: "Kaisei Opti", serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: 480px;
+  margin-bottom: 800px;
+}
+
+h3{
+  font-size: 80px;
+  color: rgb(230, 183, 122);
+  font-family: "Kaisei Opti", serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 8px;
 }
 p{
-  color: rgb(203, 157, 97);
+  font-size: 24px;
+  color: rgb(230, 183, 122);
   font-family: "Kaisei Opti", serif;
   font-weight: 700;
   font-style: normal;
+  line-height: 1.6;
 }
+.text-box{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    text-align: left;
+    margin-bottom: 800px;
+}
+.text-box>img{
+    width: 376px;
+    height: auto;
+    border: 8px solid rgba(230, 183, 122, 0.8);
+    border-radius: 1%;
+}
+
+
+
+.text-content{
+    position: relative;
+    max-width: 376px;
+    margin-top: -72px;
+}
+.corner-img{
+  position: absolute;
+  top: 88px;
+  right: 24px; 
+  opacity: 0.25;
+  border: none;
+}
+
+
+
+.text-box.highlight h3,
+.text-box.highlight p{
+  color: rgb(230, 183, 122);
+}
+
+h5{
+   font-size: 48px;
+  color: rgb(230, 183, 122);
+  font-family: "Kaisei Opti", serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: 800px;
+  margin-bottom: 1600px;
+}
+footer{
+  margin-bottom: 64px;
+  margin-top: -64px;
+}
+
+@media (max-width:600px){
+  h1{
+    font-size: 48px;
+    margin-bottom: 8px;
+  }
+  h2{
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  h3{
+    font-size:48px;
+    
+  }
+  h4{
+    font-size: 24px;
+    margin-bottom: 160px;
+  }
+  h5{
+    font-size: 20px;
+    margin-bottom: 400px;
+    margin-top: 400px;
+  }
+  p{
+    font-size: 20px;
+  }
+  .text-box{
+    gap: 4px;
+    margin-bottom: 320px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .text-box>img{
+    width: 320px;
+    height:auto;
+    border: 4px solid rgba(230, 183, 122, 0.8);
+    border-radius: 1%;
+    margin-bottom: 48px;
+  }
+  .text-content{
+    width: 320px;
+    height:auto;
+    margin-top: -80px;
+  }
+  .text-content img.corner-img {
+  width: 150px !important; 
+  height: auto !important;
+  top:64px;
+  }
+  .title-bg.bg1{
+  transform: translate(-50%,-50%) translate(-210px,48px);
+  width: 40px;
+  }
+  .title-bg.bg2{
+  transform: translate(-50%,-50%) translate(-140px,216px);
+  width: 50px;
+  }
+  .title-bg.bg3{
+  transform: translate(-50%,-50%) translate(-70px,48px);
+  width: 60px;
+  }
+  .title-bg.bg4{
+  transform: translate(-50%,-50%) translate(0px,216px);
+  width: 50px;
+  }
+  .title-bg.bg5{
+  transform: translate(-50%,-50%) translate(70px,48px);
+  width: 40px;
+  }
+  .title-bg.bg6{
+  transform: translate(-50%,-50%) translate(140px,216px);
+  width: 60px;
+  }
+  .title-bg.bg7{
+  transform: translate(-50%,-50%) translate(210px,48px);
+  width: 50px;
+  }
+  }

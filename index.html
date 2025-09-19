@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex" />
     <title>Document</title>
     <style>
         img{
@@ -14,8 +15,14 @@
             border-style: solid;
             border-radius: 8px;
             padding: 16px;
-            margin-bottom: 8px;
-            background-image: url(カフェ背景.jpeg);
+            margin-bottom: 120px;
+            background-image: linear-gradient(
+                rgba(0,0,0,0.2), 
+                rgba(0,0,0,0.2)
+            ),url(背景.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
         }
         body{
             text-align: center;
@@ -28,9 +35,109 @@
 </head>
 <body>
     <section>
-        <h1>私のスイーツ特集</h1>
-        <p>１週間に食べた、大好きなスイーツをご紹介</p>
-        <img src="カヌレ.jpg" alt="カヌレ">
+        <div class="title-box">
+            <h1>私のスイーツ特集</h1>
+            <img src="アイスアイコン.png" alt="アイスアイコン" class="title-bg bg1">
+            <img src="かき氷.png" alt="かき氷" class="title-bg bg2">
+            <img src="クッキー.png" alt="クッキー" class="title-bg bg3">
+            <img src="サンデー.png" alt="サンデー" class="title-bg bg4">
+            <img src="アイスアイコン.png" alt="アイスアイコン" class="title-bg bg5">
+            <img src="カヌレ.png" alt="カヌレ" class="title-bg bg6">
+            <img src="サンデー.png" alt="サンデー" class="title-bg bg7">
+        </div>
+        <h2>１週間で食べた、大好きなスイーツをご紹介</h2>
+
+        <div class="title-box bg1">
+            <h4>2025.9.1 Mon - 2025.9.7 Sun</h4>
+         </div>
+
+        <div class="text-box">
+            <img src="カヌレ.jpg" alt="カヌレ">
+            <div class="text-content">
+                <h3>紅茶<br>
+                    カヌレ</h3>
+                <p>2025.9.1 Mon<br>
+                銀座のカヌレ専門店にて。外側のカリっとした食感からは想像できない、中の柔らかさ、濃厚さは、まるでサプライズプレゼントをもらった時のようでした^^
+            </p>
+            <img src="カヌレ.png" alt="カヌレ" class="corner-img" style="width: 256px; height:auto;">
+            </div>
+        </div>
+
+        <div class="text-box highlight">
+            <img src="抹茶金時.jpg" alt="抹茶金時">
+            <div class="text-content">
+                <h3>宇治<br>
+                    抹茶金時</h3>
+                <p>2025.9.2 Tue<br>
+                上野のとあるカフェにて。熱い季節にうんざりした体に染みる、キンキンのかき氷は、それはそれは絶品☆彡　でも、食べすぎると頭が痛くなるので要注意。
+            </p>
+            <img src="かき氷.png" alt="かき氷" class="corner-img" style="width: 192px; height:auto;">
+            </div>
+        </div>
+
+        <div class="text-box">
+            <img src="手作りチャンククッキー.jpg" alt="クッキー">
+            <div class="text-content">
+                <h3>手作り<br>
+                    クッキー</h3>
+                <p>2025.9.3 Wed<br>
+                何の理由もなく、チャンククッキーが食べたい衝動に駆られ、SNSを駆使して作り上げた渾身の一品。チャンクというほど大きくはないが、これもまたいい。
+            </p>
+            <img src="クッキー.png" alt="クッキー" class="corner-img" style="width: 288px; height:auto;">
+            </div>
+        </div>
+
+        <div class="text-box">
+            <img src="抹茶ミックス.jpg" alt="抹茶ミックス">
+            <div class="text-content">
+                <h3>抹茶<br>
+                    サンデー</h3>
+                <p>2025.9.4 Thu<br>
+                豊洲の商業施設内にある茶房にて。コンパクトのように見えて、奥深くまで数々の抹茶のスイーツたちが隠れている。まるで採掘のように食べれる楽しいパフェ！
+            </p>
+            <img src="サンデー.png" alt="サンデー" class="corner-img" style="width: 176px; height:auto;">
+            </div>
+        </div>
+
+        <div class="text-box">
+            <img src="チョコチップソフト.jpg" alt="チョコチップソフト">
+            <div class="text-content">
+                <h3>ソフト<br>
+                    クリーム</h3>
+                <p>2025.9.5 Fri<br>
+                海老名の秘境にある、隠れた名店の一品。とても特徴的な盛り付けの中には、他にはない牛乳の濃厚な甘みと、チョコチップのアクセントが目を光らせている...
+            </p>
+            <img src="アイスアイコン.png" alt="アイスアイコン" class="corner-img" style="width: 152px; height:auto;">
+            </div>
+        </div>
+
+        <div class="text-box highlight">
+            <img src="手作りパフェ.jpg" alt="手作りパフェ">
+            <div class="text-content">
+                <h3>手作り<br>
+                    サンデー</h3>
+                <p>2025.9.6 Sat<br>
+                何でもない日に、小学生の妹が朝イチから作ってくれたパフェ。お菓子、果物、アイスと、次々に私の好みの食べ物が現れ、朝から幸せを充電できましたとさ。
+            </p>
+            <img src="サンデー.png" alt="サンデー" class="corner-img" style="width: 176px; height:auto;">
+            </div>
+        </div>
+
+        <div class="text-box">
+            <img src="抹茶パフェ.jpg" alt="抹茶パフェ">
+            <div class="text-content">
+                <h3>抹茶<br>
+                    アイス</h3>
+                <p>2025.9.7 Sun<br>
+                最後を締めくくるは、これまた豊洲の、千客万来にある一品だ。江戸時代風の綺麗な街の中でアイスを食べるしあわせの感覚は、現地に行かないと分からないだろう。
+                </p>
+                <img src="アイスアイコン.png" alt="アイスアイコン" class="corner-img" style="width: 152px; height:auto;">
+            </div>
+        </div>
+        
+         <div class="title-box bg2">
+            <h5>スイーツ男子/女子の誕生を願って。</h5>
+         </div>
     </section>
     <footer>(c) 2025 Jinta Machida</footer>
 </body>
